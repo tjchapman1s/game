@@ -51,19 +51,19 @@ p_direction=0; //this is where the player will aim, should match where the sprit
             <kind>1</kind>
             <string>if keyboard_check(vk_shift) {m_speed=2
 
-if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed; p_direction=1;}
-if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_direction=3;}
+if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed; p_direction=90;}
+if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_direction=270;}
 if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed; p_direction=0;}
-if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=2;}
+if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=180;}
 
 }
 
 m_speed = 1;
 
-if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed}
-if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed}
-if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed}
-if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed}
+if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed; p_direction=90;}
+if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_direction=270;}
+if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed; p_direction=0;}
+if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=180;}
 
 </string>
           </argument>

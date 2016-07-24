@@ -125,11 +125,11 @@ if id.health &lt;=0 {instance_destroy();}
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>2</string>
           </argument>
           <argument>
             <kind>5</kind>
-            <sprite>-1</sprite>
+            <sprite>prt_blood</sprite>
           </argument>
           <argument>
             <kind>0</kind>

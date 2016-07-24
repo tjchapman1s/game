@@ -12,6 +12,7 @@
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\spr_player_front</sprite>
+      <sprite>sprites\spr_p_ani_down</sprite>
     </sprites>
     <sprites name="environment">
       <sprites name="env_test">
