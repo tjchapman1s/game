@@ -24,6 +24,8 @@
     </sprites>
     <sprites name="weapon">
       <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_weapon_pistol</sprite>
+      <sprite>sprites\spr_ammo_pistol</sprite>
     </sprites>
     <sprites name="particles">
       <sprite>sprites\prt_blood</sprite>
@@ -47,18 +49,21 @@
       <object>objects\crappy_zombie</object>
       <object>objects\furniture_test_table</object>
     </objects>
-    <object>objects\player</object>
     <objects name="enemies">
       <objects name="zombie">
         <object>objects\obj_zombie_01</object>
       </objects>
     </objects>
     <objects name="player">
+      <object>objects\player</object>
       <object>objects\obj_bullet</object>
     </objects>
     <objects name="controls">
       <object>objects\obj_init_globals</object>
       <object>objects\obj_draw_p_info</object>
+    </objects>
+    <objects name="items">
+      <object>objects\obj_ammo_pistol</object>
     </objects>
   </objects>
   <rooms name="rooms">
