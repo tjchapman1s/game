@@ -12,12 +12,14 @@
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\spr_p_idle_down</sprite>
+      <sprite>sprites\spr_p_idle_up</sprite>
       <sprite>sprites\spr_p_idle_left</sprite>
       <sprite>sprites\spr_p_idle_right</sprite>
       <sprites name="player_animations">
         <sprite>sprites\spr_p_ani_left</sprite>
         <sprite>sprites\spr_p_ani_right</sprite>
         <sprite>sprites\spr_p_ani_down</sprite>
+        <sprite>sprites\spr_p_ani_up</sprite>
       </sprites>
     </sprites>
     <sprites name="environment">

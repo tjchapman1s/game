@@ -62,9 +62,18 @@ if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_di
 if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed; p_direction=0;}
 if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=180;}
 
-if keyboard_check_released(vk_anykey){
+if keyboard_check_released(vk_anykey){ //this could probably be done a lot nicer, but who's going to know? 
     if p_direction== 270 {
-    sprite_index = spr_p_idle_down;
+    sprite_index = spr_p_idle_down;                                         //!!!!!!!!!this could cause issues later, as it checks any key and and not just wsad!!!!!!!!!!!!
+    }
+    if p_direction== 0 {
+    sprite_index = spr_p_idle_right;
+    }
+    if p_direction== 90 {
+    sprite_index = spr_p_idle_up;
+    }
+    if p_direction== 180 {
+    sprite_index = spr_p_idle_left;
     }
 }
 
@@ -72,12 +81,43 @@ if keyboard_check_released(vk_anykey){
 
 m_speed = 1;
 
-if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed; p_direction=90;}
-if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_direction=270;
+if keyboard_check(ord('W')) &amp;&amp; place_free(x,y-m_speed) {y-=m_speed; p_direction=90;
+    image_speed = 1/50;
+    sprite_index = spr_p_ani_up;
 }
-if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed; p_direction=0;}
-if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=180;}
 
+
+
+if keyboard_check(ord('S')) &amp;&amp; place_free(x,y+m_speed) {y+=m_speed; p_direction=270;
+        image_speed = 1/50;
+        sprite_index = spr_p_ani_down;
+}
+
+if keyboard_check(ord('D')) &amp;&amp; place_free(x+m_speed,y) {x+=m_speed; p_direction=0;
+    image_speed = 1/50;
+    sprite_index = spr_p_ani_right;
+}
+
+if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed; p_direction=180;
+    image_speed = 1/50;
+    sprite_index = spr_p_ani_left;
+}
+
+
+if keyboard_check_released(vk_anykey){ 
+    if p_direction== 270 {
+    sprite_index = spr_p_idle_down;
+    }
+    if p_direction== 0 {
+    sprite_index = spr_p_idle_right;
+    }
+    if p_direction== 90 {
+    sprite_index = spr_p_idle_up;
+    }
+    if p_direction== 180 {
+    sprite_index = spr_p_idle_left;
+    }
+}
 </string>
           </argument>
         </arguments>

@@ -73,8 +73,8 @@ path= path_add();
 mp_grid_add_instances(path, collision, 1);
 mp_grid_path(grid, path, x, y, player.x, player.y, 1);
 
-if point_distance(id.x, id.y, player.x, player.y) &lt; 128 {
-path_start(path, 0.5, "", 0)
+if point_distance(id.x, id.y, player.x, player.y) &lt; 256 {
+path_start(path, 0.8, "", 0)
 
 }
 
