@@ -94,6 +94,7 @@ with (instance_create(id.x, id.y, obj_bullet))
     direction = player.p_direction;
     image_angle = direction;
     speed = 20;
+    audio_play_sound(snd_shoot, 10, false);
     }
     global.ammo_pistol += -1;
 }
