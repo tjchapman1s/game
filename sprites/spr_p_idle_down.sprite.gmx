@@ -20,7 +20,6 @@
   <width>64</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_p_ani_down_0.png</frame>
-    <frame index="1">images\spr_p_ani_down_1.png</frame>
+    <frame index="0">images\spr_p_idle_down_0.png</frame>
   </frames>
 </sprite>
