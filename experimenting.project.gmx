@@ -36,6 +36,9 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\globals.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="env_test">
       <object>objects\player_old_crappy</object>
@@ -52,6 +55,10 @@
     </objects>
     <objects name="player">
       <object>objects\obj_bullet</object>
+    </objects>
+    <objects name="controls">
+      <object>objects\obj_init_globals</object>
+      <object>objects\obj_draw_p_info</object>
     </objects>
   </objects>
   <rooms name="rooms">
