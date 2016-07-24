@@ -87,12 +87,16 @@ if keyboard_check(ord('A')) &amp;&amp; place_free(x-m_speed,y) {x-=m_speed}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (instance_create(id.x, id.y, obj_bullet))
+            <string>if (global.ammo_pistol &gt; 0){
+
+with (instance_create(id.x, id.y, obj_bullet))
 {
     direction = player.p_direction;
     image_angle = direction;
     speed = 20;
     }
+    global.ammo_pistol += -1;
+}
 </string>
           </argument>
         </arguments>

@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_white);
-draw_text(0, 0, "Pistol Ammo: " + global.ammo_pistol);
+draw_text(0, 0, "Pistol Ammo: " + string(global.ammo_pistol));
+draw_text(0, 32, "Health: " + string(global.player_health));
 
 </string>
           </argument>

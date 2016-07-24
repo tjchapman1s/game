@@ -139,6 +139,7 @@
     <instance objName="collision" x="448" y="384" name="inst_910E2862" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="512" y="192" name="inst_09FFA6C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_init_globals" x="0" y="0" name="inst_804DA718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_draw_p_info" x="0" y="64" name="inst_B908A7EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="192" y="256" w="64" h="64" xo="0" yo="0" id="10000089" name="inst_F6F546C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
