@@ -50,6 +50,8 @@
     <sprites name="dev">
       <sprite>sprites\spr_dev_door</sprite>
       <sprite>sprites\spr_dev_wall</sprite>
+      <sprite>sprites\spr_dev_text</sprite>
+      <sprite>sprites\sprite20</sprite>
     </sprites>
     <sprites name="items">
       <sprite>sprites\spr_key</sprite>
