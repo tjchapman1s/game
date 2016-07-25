@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>if keyboard_check(ord('E')){
 global.ammo_pistol += 15;
+audio_play_sound(snd_pickup_ammo, 10, false);
 instance_destroy();
 }
 </string>

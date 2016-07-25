@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sounds name="weapon">
       <sound>sound\snd_shoot</sound>
+      <sound>sound\snd_pickup_ammo</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -45,6 +46,7 @@
     </sprites>
     <sprites name="dev">
       <sprite>sprites\spr_dev_door</sprite>
+      <sprite>sprites\spr_dev_wall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -61,7 +63,6 @@
     <objects name="env_test">
       <object>objects\player_old_crappy</object>
       <object>objects\player_old_crappy2</object>
-      <object>objects\collision</object>
       <object>objects\crappy_zombie</object>
       <object>objects\furniture_test_table</object>
       <object>objects\obj_player_hand</object>
@@ -78,6 +79,7 @@
     </objects>
     <objects name="controls">
       <object>objects\obj_init_globals</object>
+      <object>objects\collision</object>
       <object>objects\obj_draw_p_info</object>
       <objects name="ports">
         <object>objects\obj_door</object>
