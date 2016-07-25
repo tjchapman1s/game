@@ -50,16 +50,16 @@ path = path_add();
           <argument>
             <kind>1</kind>
             <string>//create the path and move to player
-var px = (player.x div 64)*64+16;
-var py = (player.y div 64)*64+16;
+var px = (player.x div 64)*64;
+var py = (player.y div 64)*64;
 
 if (mp_grid_path(global.grid, path, x, y, px, py, 1)) { //not sure how this works
-    //path_start(path, 1, path_action_stop, false);
-    var xx = path_get_point_x(path, 1);
+    path_start(path, 1, path_action_stop, false);
+    /*var xx = path_get_point_x(path, 1);
     var yy = path_get_point_y(path, 1);
     var pd = point_direction(x, y, xx, yy);
     hspeed = lengthdir_x(0.8, pd);
-    vspeed = lengthdir_y(0.8, pd);
+    vspeed = lengthdir_y(0.8, pd);*/
         
 }
 </string>

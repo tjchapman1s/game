@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>var cell_width = 64;
-var cell_height = 128;
+var cell_height = 64;
 
 var hcells = room_width div cell_width;
 var vcells = room_width div cell_height;
