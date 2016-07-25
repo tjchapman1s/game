@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_white);
-draw_text(view_xport[0], view_yport[0], "Pistol Ammo: " + string(global.ammo_pistol));
-draw_text(0, 32, "Health: " + string(global.player_health));
-draw_text(0, 64, "Player Direction: " + string(player.p_direction));
+draw_text(view_xview[0], view_yview[0], "Pistol Ammo: " + string(global.ammo_pistol));
+draw_text(view_xview[0], view_yview[0] + 32, "Health: " + string(global.player_health));
+draw_text(view_xview[0], view_yview[0] + 64, "Player Direction: " + string(player.p_direction));
 </string>
           </argument>
         </arguments>
