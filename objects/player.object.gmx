@@ -28,7 +28,7 @@
             <string>m_speed = 1;
 p_direction= 270; //this is where the player will aim, should match where the sprite is facing
 
-audio_play_sound(bgm_000, 10, true);
+//audio_play_sound(bgm_000, 10, true);
 </string>
           </argument>
         </arguments>
@@ -143,7 +143,7 @@ if keyboard_check_released(vk_anykey){
           <argument>
             <kind>1</kind>
             <string>if (keyboard_check_pressed(ord('E')) &amp;&amp; global.is_text_on_screen == 0){
-    scr_text(other.sign_string, 0.25, 320, 640);
+    scr_text(other.sign_string, 0.25, global.text_draw_x, global.text_draw_y);
     }
 </string>
           </argument>
@@ -170,14 +170,14 @@ if keyboard_check_released(vk_anykey){
             <string>if keyboard_check_pressed(ord('E')) &amp;&amp; global.key_array[other.required_key] &gt; 0{
 player_x = other.target_x;
 player_y = other.target_y;
-//global.test_key -= 1;
+audio_play_sound(snd_open_door, 10, false);
 room_goto(other.targetRoom);
 }
 
 else if keyboard_check_pressed(ord('E')) { 
 
    // instance_deactivate_all(false);
-    scr_text(other.err_message, 0.25, 320, 640);
+    scr_text(other.err_message, 0.25, global.text_draw_x, global.text_draw_y);
     
        // if keyboard_check_pressed(ord('F')) {
        //     instance_activate_all();
@@ -210,6 +210,7 @@ else if keyboard_check_pressed(ord('E')) {
             <string>if keyboard_check_pressed(ord('E')){
 player_x = other.target_x;
 player_y = other.target_y;
+audio_play_sound(snd_open_door, 10, false);
 room_goto(other.targetRoom);
 }
 </string>

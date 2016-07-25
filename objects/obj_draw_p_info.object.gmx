@@ -32,7 +32,7 @@ draw_text(view_xview[0], view_yview[0] + 64, "Player Direction: " + string(playe
 
 
 
-draw_text(view_xview[0], view_yview[0] + 96, "Test Key: " + string(global.test_key));
+//draw_text(view_xview[0], view_yview[0] + 96, "Test Key: " + string(global.test_key));
 </string>
           </argument>
         </arguments>

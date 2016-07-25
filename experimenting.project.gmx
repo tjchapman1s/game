@@ -18,6 +18,9 @@
     <sounds name="ambience">
       <sound>sound\bgm_000</sound>
     </sounds>
+    <sounds name="doors">
+      <sound>sound\snd_open_door</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -118,6 +121,10 @@
         <object>objects\obj_key</object>
         <object>objects\obj_test_key</object>
       </objects>
+    </objects>
+    <objects name="lighting">
+      <object>objects\obj</object>
+      <object>objects\object23</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -57,7 +57,7 @@ if (time &lt; text_length)
 {
     time += text_spd;
     print = string_copy(text,0,time);
-    audio_play_sound(snd_text_blip, 10, false);
+    if string_copy(text, 0, time) != " " {audio_play_sound(snd_text_blip, 10, false);}
 }
 </string>
           </argument>
