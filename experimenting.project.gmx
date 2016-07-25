@@ -61,11 +61,13 @@
       <object>objects\collision</object>
       <object>objects\crappy_zombie</object>
       <object>objects\furniture_test_table</object>
+      <object>objects\obj_player_hand</object>
     </objects>
     <objects name="enemies">
       <objects name="zombie">
         <object>objects\obj_zombie_01</object>
       </objects>
+      <object>objects\obj_enemy</object>
     </objects>
     <objects name="player">
       <object>objects\player</object>
