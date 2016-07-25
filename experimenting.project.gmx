@@ -64,6 +64,7 @@
       <object>objects\player_old_crappy</object>
       <object>objects\player_old_crappy2</object>
       <object>objects\crappy_zombie</object>
+      <object>objects\zombie_backup</object>
       <object>objects\furniture_test_table</object>
       <object>objects\obj_player_hand</object>
     </objects>
@@ -77,7 +78,7 @@
       <object>objects\player</object>
       <object>objects\obj_bullet</object>
     </objects>
-    <objects name="controls">
+    <objects name="controllers">
       <object>objects\obj_init_globals</object>
       <object>objects\collision</object>
       <object>objects\obj_draw_p_info</object>
@@ -85,6 +86,7 @@
         <object>objects\obj_door</object>
       </objects>
       <object>objects\obj_controller</object>
+      <object>objects\obj_grid</object>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>

@@ -102,6 +102,7 @@
     <instance objName="obj_controller" x="64" y="0" name="inst_FB662590" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zombie_01" x="256" y="448" name="inst_89E453F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zombie_01" x="320" y="384" name="inst_E356C87D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grid" x="64" y="64" name="inst_1E1F6085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="192" y="256" w="64" h="64" xo="0" yo="0" id="10000089" name="inst_F6F546C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
