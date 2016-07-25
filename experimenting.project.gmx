@@ -12,6 +12,9 @@
     <sounds name="item">
       <sound>sound\snd_key_get</sound>
     </sounds>
+    <sounds name="text">
+      <sound>sound\snd_text_blip</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -104,6 +107,7 @@
         <object>objects\obj_draw_p_info</object>
         <object>objects\obj_spawner</object>
       </objects>
+      <object>objects\obj_sign</object>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>

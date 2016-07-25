@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alpha = 0;
+            <string>alpha = 1;
 print = ""; //text printed to screen at any point in time "H" "He" "Hel" ... etc
 time = 0; 
 depth = depth - instance_number(obj_text);
@@ -57,6 +57,7 @@ if (time &lt; text_length)
 {
     time += text_spd;
     print = string_copy(text,0,time);
+    audio_play_sound(snd_text_blip, 10, false);
 }
 </string>
           </argument>
@@ -82,11 +83,11 @@ if (time &lt; text_length)
 draw_set_alpha(alpha);
 if (alpha &lt; 1) alpha += text_spd/10; else alpha = 1;
 
-draw_set_font(font);
+/*draw_set_font(font);
 draw_set_color(c_gray);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
 draw_set_color(c_black);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
+draw_rectangle(x,y,x+boxwidth,y+boxheight,1);*/
 
 draw_set_color(c_white);
 draw_set_halign(fa_left);
