@@ -64,7 +64,11 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
+    <script>scripts\scr_text.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_message</font>
+  </fonts>
   <objects name="objects">
     <objects name="env_test">
       <object>objects\player_old_crappy</object>
@@ -94,6 +98,7 @@
       </objects>
       <object>objects\obj_controller</object>
       <object>objects\obj_grid</object>
+      <object>objects\obj_text</object>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>
