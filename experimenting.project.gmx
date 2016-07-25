@@ -94,6 +94,7 @@
     <rooms name="env_test">
       <room>rooms\testroom</room>
       <room>rooms\room1</room>
+      <room>rooms\room3</room>
     </rooms>
   </rooms>
   <help>
