@@ -43,6 +43,9 @@
     <sprites name="particles">
       <sprite>sprites\prt_blood</sprite>
     </sprites>
+    <sprites name="dev">
+      <sprite>sprites\spr_dev_door</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -76,6 +79,9 @@
     <objects name="controls">
       <object>objects\obj_init_globals</object>
       <object>objects\obj_draw_p_info</object>
+      <objects name="ports">
+        <object>objects\obj_door</object>
+      </objects>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>
