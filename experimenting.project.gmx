@@ -90,6 +90,7 @@
       <object>objects\obj_draw_p_info</object>
       <objects name="ports">
         <object>objects\obj_door</object>
+        <object>objects\obj_key_door</object>
       </objects>
       <object>objects\obj_controller</object>
       <object>objects\obj_grid</object>
