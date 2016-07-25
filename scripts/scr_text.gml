@@ -2,6 +2,8 @@
 
 txt = instance_create(argument2, argument3, obj_text);
 with (txt) { 
+
+    global.is_text_on_screen = 1;
     padding = 16; 
     max_length = view_wview[0] div 2;
     text = argument0;

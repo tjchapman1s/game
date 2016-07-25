@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>m_speed = 1;
-p_direction=0; //this is where the player will aim, should match where the sprite is facing
+p_direction= 270; //this is where the player will aim, should match where the sprite is facing
 </string>
           </argument>
         </arguments>
@@ -147,7 +147,17 @@ player_y = other.target_y;
 room_goto(other.targetRoom);
 }
 
-else if keyboard_check_pressed(ord('E')) { show_message(other.err_message); }
+else if keyboard_check_pressed(ord('E')) { 
+
+   // instance_deactivate_all(false);
+    scr_text(other.err_message, 0.25, 320, 640);
+    
+       // if keyboard_check_pressed(ord('F')) {
+       //     instance_activate_all();
+            //instance_deactivate_object(obj_text);
+        //}
+
+}
 </string>
           </argument>
         </arguments>
@@ -199,6 +209,34 @@ room_goto(other.targetRoom);
             <kind>1</kind>
             <string>x = player_x;
 y = player_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="69">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///this should be clearing text from the screen
+if global.is_text_on_screen == 1 {
+    instance_deactivate_object(txt);
+    global.is_text_on_screen = 0;
+
+}
 </string>
           </argument>
         </arguments>

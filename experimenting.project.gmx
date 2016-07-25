@@ -79,10 +79,10 @@
       <object>objects\obj_player_hand</object>
     </objects>
     <objects name="enemies">
+      <object>objects\obj_enemy</object>
       <objects name="zombie">
         <object>objects\obj_zombie_01</object>
       </objects>
-      <object>objects\obj_enemy</object>
     </objects>
     <objects name="player">
       <object>objects\player</object>
@@ -100,6 +100,7 @@
       <objects name="drawing">
         <object>objects\obj_text</object>
         <object>objects\obj_draw_p_info</object>
+        <object>objects\obj_spawner</object>
       </objects>
     </objects>
     <objects name="items">
