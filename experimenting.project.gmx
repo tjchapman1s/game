@@ -84,6 +84,7 @@
       <objects name="ports">
         <object>objects\obj_door</object>
       </objects>
+      <object>objects\obj_controller</object>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>

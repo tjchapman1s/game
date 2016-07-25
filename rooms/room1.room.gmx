@@ -119,7 +119,8 @@
     <instance objName="collision" x="64" y="320" name="inst_A45138DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="64" y="384" name="inst_146D6566" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="64" y="448" name="inst_BFB67BB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zombie_01" x="832" y="320" name="inst_1D192EF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="192" y="640" name="inst_0F58DD25" locked="0" code="targetRoom = testroom;&#xA;target_x = 768;&#xA;target_y = 256;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_draw_p_info" x="0" y="0" name="inst_CFB16A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="192" y="512" w="64" h="64" xo="64" yo="0" id="10000585" name="inst_0F8FAD60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="player" x="768" y="384" name="inst_2C5077CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player" x="768" y="384" name="inst_2C5077CE" locked="0" code="p_direction = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="64" y="128" name="inst_42A498E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="64" y="192" name="inst_9C9F1DC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="64" y="256" name="inst_0F785FE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -91,7 +91,6 @@
     <instance objName="collision" x="704" y="128" name="inst_CD4683CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="768" y="128" name="inst_91E875C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="832" y="128" name="inst_CBB4E18B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_zombie_01" x="192" y="384" name="inst_FA1FD968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="512" y="384" name="inst_23168F58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="448" y="384" name="inst_910E2862" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_init_globals" x="0" y="0" name="inst_804DA718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -99,7 +98,9 @@
     <instance objName="obj_ammo_pistol" x="257" y="212" name="inst_000BF9BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="384" y="128" name="inst_33FF62E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="furniture_test_table" x="256" y="256" name="inst_6BBA4A79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="256" y="576" name="inst_8A090267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="768" y="203" name="inst_8A090267" locked="0" code="targetRoom = room1;&#xA;target_x = 192;&#xA;target_y = 576;" scaleX="1.79365074634552" scaleY="1.546875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controller" x="64" y="0" name="inst_FB662590" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zombie_01" x="256" y="448" name="inst_89E453F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="192" y="256" w="64" h="64" xo="0" yo="0" id="10000089" name="inst_F6F546C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
