@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>-2</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_master</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -62,6 +62,7 @@ if (mp_grid_path(global.grid, path, x, y, px, py, 1)) { //not sure how this work
     vspeed = lengthdir_y(0.8, pd);*/
         
 }
+
 </string>
           </argument>
         </arguments>

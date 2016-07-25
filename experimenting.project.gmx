@@ -76,6 +76,7 @@
   <scripts name="scripts">
     <script>scripts\globals.gml</script>
     <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_text_pause.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_message</font>
@@ -126,6 +127,7 @@
       <object>objects\obj</object>
       <object>objects\object23</object>
     </objects>
+    <object>objects\obj_master</object>
   </objects>
   <rooms name="rooms">
     <rooms name="env_test">

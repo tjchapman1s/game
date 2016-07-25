@@ -1,4 +1,4 @@
-//scr_text("Text",speed,x,y);
+///scr_text("Text",speed,x,y);
 
 txt = instance_create(argument2, argument3, obj_text);
 with (txt) { 
