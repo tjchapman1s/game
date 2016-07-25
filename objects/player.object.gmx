@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>m_speed = 1;
 p_direction= 270; //this is where the player will aim, should match where the sprite is facing
+
+audio_play_sound(bgm_000, 10, true);
 </string>
           </argument>
         </arguments>

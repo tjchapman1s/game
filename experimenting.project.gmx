@@ -15,6 +15,9 @@
     <sounds name="text">
       <sound>sound\snd_text_blip</sound>
     </sounds>
+    <sounds name="ambience">
+      <sound>sound\bgm_000</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
