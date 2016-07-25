@@ -9,6 +9,9 @@
       <sound>sound\snd_shoot</sound>
       <sound>sound\snd_pickup_ammo</sound>
     </sounds>
+    <sounds name="item">
+      <sound>sound\snd_key_get</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -47,6 +50,9 @@
     <sprites name="dev">
       <sprite>sprites\spr_dev_door</sprite>
       <sprite>sprites\spr_dev_wall</sprite>
+    </sprites>
+    <sprites name="items">
+      <sprite>sprites\spr_key</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -90,6 +96,10 @@
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>
+      <objects name="keys">
+        <object>objects\obj_key</object>
+        <object>objects\obj_test_key</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
