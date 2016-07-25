@@ -89,16 +89,18 @@
       <object>objects\obj_bullet</object>
     </objects>
     <objects name="controllers">
+      <object>objects\obj_controller</object>
       <object>objects\obj_init_globals</object>
+      <object>objects\obj_grid</object>
       <object>objects\collision</object>
-      <object>objects\obj_draw_p_info</object>
       <objects name="ports">
         <object>objects\obj_door</object>
         <object>objects\obj_key_door</object>
       </objects>
-      <object>objects\obj_controller</object>
-      <object>objects\obj_grid</object>
-      <object>objects\obj_text</object>
+      <objects name="drawing">
+        <object>objects\obj_text</object>
+        <object>objects\obj_draw_p_info</object>
+      </objects>
     </objects>
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>
