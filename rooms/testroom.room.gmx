@@ -103,6 +103,7 @@
     <instance objName="obj_test_key" x="832" y="512" name="inst_7C301B6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key_door" x="768" y="256" name="inst_94B28592" locked="0" code="targetRoom = room1;&#xA;target_x = 192;&#xA;target_y = 576;&#xA;required_key = 0; //needs key at element zero in global.key_array.&#xA;&#xA;err_message = &quot;This door is locked. It looks like#&#xA;you need that test key.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="512" y="192" name="inst_6368CA38" locked="0" code="sign_string = &quot;There's a scratch on the wall.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_weapon_uzi" x="235" y="206" name="inst_C7860968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-47"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="192" y="256" w="64" h="64" xo="0" yo="0" id="10000089" name="inst_F6F546C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

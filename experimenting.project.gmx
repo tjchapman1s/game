@@ -52,6 +52,7 @@
       <sprite>sprites\spr_bullet</sprite>
       <sprite>sprites\spr_weapon_pistol</sprite>
       <sprite>sprites\spr_ammo_pistol</sprite>
+      <sprite>sprites\spr_weapon_uzi</sprite>
     </sprites>
     <sprites name="particles">
       <sprite>sprites\prt_blood</sprite>
@@ -64,6 +65,9 @@
     </sprites>
     <sprites name="items">
       <sprite>sprites\spr_key</sprite>
+    </sprites>
+    <sprites name="hud">
+      <sprite>sprites\spr_p_info_hud</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -122,6 +126,7 @@
         <object>objects\obj_key</object>
         <object>objects\obj_test_key</object>
       </objects>
+      <object>objects\obj_weapon_uzi</object>
     </objects>
     <objects name="lighting">
       <object>objects\obj</object>
