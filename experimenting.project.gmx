@@ -67,7 +67,10 @@
       <sprite>sprites\spr_key</sprite>
     </sprites>
     <sprites name="hud">
+      <sprite>sprites\spr_hud_pistol</sprite>
       <sprite>sprites\spr_p_info_hud</sprite>
+      <sprite>sprites\spr_p_info_weapon</sprite>
+      <sprite>sprites\spr_hud_uzi</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

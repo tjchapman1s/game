@@ -25,12 +25,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white);
-draw_text(view_xview[0], view_yview[0], "Pistol Ammo: " + string(global.ammo_pistol));
-draw_text(view_xview[0], view_yview[0] + 32, "Health: " + string(global.player_health));
-draw_text(view_xview[0], view_yview[0] + 64, "Player Direction: " + string(player.p_direction));
-draw_sprite(spr_p_info_hud, spr_p_info_hud, view_xview[0], view_yview[0] + 716);
+            <string>draw_set_color(c_gray);
 
+//draw_text(view_xview[0], view_yview[0] + 32, "Health: " + string(global.player_health));
+draw_sprite(spr_p_info_hud, spr_p_info_hud, view_xview[0], view_yview[0] + 718);
+//draw_text(view_xview[0], view_yview[0] + 64, "Player Direction: " + string(player.p_direction));
+draw_text(view_xview[0] + 98, view_yview[0] + 740, string(global.ammo_pistol));
+
+
+draw_sprite(spr_p_info_weapon, spr_p_info_weapon, view_xview[0] + 256, view_yview[0] + 718);
+draw_set_color(c_black);
+draw_text(view_xview[0] + 100, view_yview[0] + 743, string(global.ammo_pistol));
+
+
+
+switch player.p_weapon {
+case 0:
+    draw_sprite(spr_hud_pistol, spr_hud_pistol,
+     view_xview[0] + 280, view_yview[0] + 725);
+    break;
+case 1:
+    draw_sprite(spr_hud_uzi, spr_hud_uzi,
+     view_xview[0] + 280, view_yview[0] + 725);
+     break;
+     }
 
 //draw_text(view_xview[0], view_yview[0] + 96, "Test Key: " + string(global.test_key));
 </string>
