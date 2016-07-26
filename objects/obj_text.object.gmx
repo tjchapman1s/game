@@ -3,7 +3,7 @@
   <spriteName>spr_dev_text</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-32000</depth>
+  <depth>-100007</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
