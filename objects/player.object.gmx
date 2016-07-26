@@ -29,6 +29,7 @@
 p_direction= 270; //this is where the player will aim, should match where the sprite is facing
 p_weapon= 0;
 p_counter= 1;
+p_health= 10;
 //audio_play_sound(bgm_000, 10, true);
 </string>
           </argument>

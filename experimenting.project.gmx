@@ -96,6 +96,7 @@
       <object>objects\zombie_backup</object>
       <object>objects\furniture_test_table</object>
       <object>objects\obj_player_hand</object>
+      <object>objects\obj_coordfinder</object>
     </objects>
     <objects name="enemies">
       <object>objects\obj_enemy</object>

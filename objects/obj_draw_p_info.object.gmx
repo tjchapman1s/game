@@ -37,16 +37,18 @@ draw_sprite(spr_p_info_weapon, spr_p_info_weapon, view_xview[0] + 256, view_yvie
 draw_set_color(c_black);
 draw_text(view_xview[0] + 100, view_yview[0] + 743, string(global.ammo_pistol));
 
-
+draw_healthbar(view_xview[0] + 97, view_yview[0] + 726, 
+               view_xview[0] + 247, view_yview[0] + 741,
+               global.player_health*10, c_red, c_red, c_green, 0, false, false);
 
 switch player.p_weapon {
 case 0:
     draw_sprite(spr_hud_pistol, spr_hud_pistol,
-     view_xview[0] + 280, view_yview[0] + 725);
+     view_xview[0] + 280, view_yview[0] + 740);
     break;
 case 1:
     draw_sprite(spr_hud_uzi, spr_hud_uzi,
-     view_xview[0] + 280, view_yview[0] + 725);
+     view_xview[0] + 280, view_yview[0] + 740);
      break;
      }
 
