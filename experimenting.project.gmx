@@ -48,6 +48,8 @@
         <sprite>sprites\spr_bookcase</sprite>
         <sprite>sprites\spr_bed</sprite>
         <sprite>sprites\spr_end_table_1</sprite>
+        <sprite>sprites\spr_env_terminal</sprite>
+        <sprite>sprites\spr_env_terminal_cat</sprite>
       </sprites>
       <sprites name="light">
         <sprite>sprites\spr_light</sprite>
@@ -151,6 +153,7 @@
     <objects name="lighting">
       <object>objects\obj_light_control</object>
       <object>objects\obj_light</object>
+      <object>objects\obj_light_terminal</object>
       <object>objects\obj_light_room</object>
       <object>objects\obj_light_torch</object>
     </objects>
@@ -158,6 +161,7 @@
       <objects name="lights">
         <object>objects\obj_env_candle</object>
         <object>objects\obj_env_lamp</object>
+        <object>objects\obj_env_terminal_light</object>
       </objects>
       <objects name="furniture">
         <object>objects\obj_env_bed</object>
@@ -170,11 +174,12 @@
     <rooms name="demo">
       <room>rooms\demo_f1_main_room</room>
       <room>rooms\demo_f1_door_1</room>
+      <room>rooms\demo_f1_door_2</room>
     </rooms>
     <rooms name="env_test">
-      <room>rooms\testroom</room>
       <room>rooms\room1</room>
       <room>rooms\room3</room>
+      <room>rooms\testroom</room>
     </rooms>
   </rooms>
   <help>
