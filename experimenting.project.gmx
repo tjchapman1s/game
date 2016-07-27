@@ -138,6 +138,7 @@
     <objects name="lighting">
       <object>objects\obj_light_control</object>
       <object>objects\obj_light</object>
+      <object>objects\obj_light_torch</object>
     </objects>
     <object>objects\obj_master</object>
     <objects name="env">
@@ -147,6 +148,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="demo">
+      <room>rooms\demo_f1_main_room</room>
+      <room>rooms\demo_f1_door_1</room>
+    </rooms>
     <rooms name="env_test">
       <room>rooms\testroom</room>
       <room>rooms\room1</room>

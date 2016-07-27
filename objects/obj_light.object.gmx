@@ -49,10 +49,10 @@ lightStrength = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var z = choose(.1, -.1, 0);
-lightSize += z;
+            <string>//var z = choose(.1, -.1, 0);
+//lightSize += z;
 
-lightSize = clamp(lightSize, 6, 8);
+//lightSize = clamp(lightSize, 6, 8);
 </string>
           </argument>
         </arguments>
