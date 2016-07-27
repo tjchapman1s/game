@@ -129,10 +129,6 @@ global.is_text_on_screen = 0;</code>
     <instance objName="collision" x="192" y="896" name="inst_B0D03BB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="192" y="960" name="inst_D1427DA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="192" y="1024" name="inst_B7359DD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light" x="992" y="1247" name="inst_CC4F8D0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light" x="992" y="1374" name="inst_EA5228A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light" x="1728" y="960" name="inst_66A098A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_light" x="256" y="960" name="inst_FE87ECB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="1535" y="928" name="inst_447C58CA" locked="0" code="targetRoom = demo_f1_door_1;&#xA;target_x = 512 ;&#xA;target_y = 576;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zombie_01" x="384" y="960" name="inst_BFD19516" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_zombie_01" x="1664" y="960" name="inst_CE8FDE95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -143,8 +139,9 @@ global.is_text_on_screen = 0;</code>
     <instance objName="collision" x="960" y="1536" name="inst_2EE0EA42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="1024" y="1536" name="inst_54B39E2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_p_info" x="320" y="1472" name="inst_8166079A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_env_lamp" x="832" y="1088" name="inst_E243618F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_env_lamp" x="1216" y="1088" name="inst_3501EF88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_env_lamp" x="288" y="959" name="inst_E243618F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_env_lamp" x="1760" y="958" name="inst_3501EF88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light_room" x="992" y="931" name="inst_7EDAB417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="960" y="1472" w="64" h="64" xo="320" yo="64" id="10001232" name="inst_2CDC5AA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

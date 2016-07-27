@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>lightSize = 12;
+            <string>lightSize = 24;
 lightStrength = 1;
 </string>
           </argument>

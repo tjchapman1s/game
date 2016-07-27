@@ -45,8 +45,14 @@
         <sprite>sprites\spr_table</sprite>
         <sprite>sprites\spr_env_candle</sprite>
         <sprite>sprites\spr_env_lamp</sprite>
+        <sprite>sprites\spr_bookcase</sprite>
+        <sprite>sprites\spr_bed</sprite>
+        <sprite>sprites\spr_end_table_1</sprite>
       </sprites>
-      <sprite>sprites\spr_light</sprite>
+      <sprites name="light">
+        <sprite>sprites\spr_light</sprite>
+        <sprite>sprites\spr_light_orange</sprite>
+      </sprites>
     </sprites>
     <sprites name="undead">
       <sprite>sprites\spr_zombie_0</sprite>
@@ -139,6 +145,7 @@
     <objects name="lighting">
       <object>objects\obj_light_control</object>
       <object>objects\obj_light</object>
+      <object>objects\obj_light_room</object>
       <object>objects\obj_light_torch</object>
     </objects>
     <object>objects\obj_master</object>
@@ -146,6 +153,11 @@
       <objects name="lights">
         <object>objects\obj_env_candle</object>
         <object>objects\obj_env_lamp</object>
+      </objects>
+      <objects name="furniture">
+        <object>objects\obj_env_bed</object>
+        <object>objects\obj_env_bookcase</object>
+        <object>objects\obj_end_table_1</object>
       </objects>
     </objects>
   </objects>
