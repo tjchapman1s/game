@@ -58,6 +58,7 @@
     </sprites>
     <sprites name="undead">
       <sprite>sprites\spr_zombie_0</sprite>
+      <sprite>sprites\spr_zombie_1</sprite>
     </sprites>
     <sprites name="weapon">
       <sprite>sprites\spr_bullet</sprite>
@@ -115,6 +116,7 @@
       <object>objects\obj_enemy</object>
       <objects name="zombie">
         <object>objects\obj_zombie_01</object>
+        <object>objects\obj_zombie_big</object>
       </objects>
     </objects>
     <objects name="player">
@@ -142,6 +144,7 @@
       <objects name="keys">
         <objects name="demo_keys">
           <object>objects\obj_key_d_f1_door_2</object>
+          <object>objects\obj_key_d_f1_door_3</object>
         </objects>
         <objects name="test keys">
           <object>objects\obj_key</object>
@@ -175,6 +178,7 @@
       <room>rooms\demo_f1_main_room</room>
       <room>rooms\demo_f1_door_1</room>
       <room>rooms\demo_f1_door_2</room>
+      <room>rooms\demo_f1_door_3_boss</room>
     </rooms>
     <rooms name="env_test">
       <room>rooms\room1</room>

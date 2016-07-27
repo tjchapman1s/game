@@ -16,6 +16,7 @@ global.gun_array[5] = 0; //
 
 
 //flags? to be used to track progress
-global.key_array[0] = 0; //we dont have the key associated with element zero
-global.key_array[1] = 0;
+global.key_array[0] = 0; //we dont have the key associated with element zero; test_key
+global.key_array[1] = 0; //demo key 1
+global.key_array[2] = 0; //demo key 2
 

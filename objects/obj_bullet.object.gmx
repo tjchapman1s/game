@@ -24,7 +24,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_zombie_01">
+    <event eventtype="4" ename="obj_enemy">
       <action>
         <libid>1</libid>
         <id>203</id>

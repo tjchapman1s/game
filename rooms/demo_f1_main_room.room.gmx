@@ -143,6 +143,7 @@ global.is_text_on_screen = 0;</code>
     <instance objName="obj_env_lamp" x="1760" y="958" name="inst_3501EF88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_light_room" x="992" y="931" name="inst_7EDAB417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key_door" x="510" y="926" name="inst_7EC439D0" locked="0" code="targetRoom= demo_f1_door_2;&#xA;target_x = 512;&#xA;target_y = 576;&#xA;&#xA;required_key= 1;&#xA;&#xA;err_message = &quot;The door has an engraving of ur mom...&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_door" x="1024" y="832" name="inst_F661932D" locked="0" code="targetRoom = demo_f1_door_3_boss;&#xA;target_x= 512;&#xA;target_y= 640;&#xA;&#xA;err_message = &quot;A humanoid figure adorns the door. &quot;&#xA;&#xA;required_key = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="960" y="1472" w="64" h="64" xo="320" yo="64" id="10001232" name="inst_2CDC5AA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

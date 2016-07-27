@@ -80,7 +80,7 @@
     <instance objName="obj_env_candle" x="604" y="347" name="inst_5AF25DB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_env_candle" x="748" y="351" name="inst_69E6CE97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_env_candle" x="285" y="355" name="inst_AF00300B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_weapon_uzi" x="283" y="359" name="inst_2692A2F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_weapon_uzi" x="283" y="359" name="inst_2692A2F0" locked="0" code="depth -= 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_light_control" x="192" y="704" name="inst_29A673F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="256" y="640" name="inst_0CC607B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="collision" x="320" y="640" name="inst_354BF1A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -115,6 +115,7 @@
     <instance objName="obj_env_terminal_light" x="340" y="306" name="inst_00F3B637" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="257" y="220" name="inst_EB7A4EEA" locked="0" code="sign_string = &quot;Musty books fill the bookshelves running along the wall.&quot;" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="348" y="363" name="inst_4A6500DE" locked="0" code="sign_string = &quot;It's a computer.&quot;&#xA;" scaleX="1.08000004291534" scaleY="0.53125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_d_f1_door_3" x="644" y="342" name="inst_EAB4CCBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="448" y="576" w="64" h="64" xo="320" yo="64" id="10001437" name="inst_DD16D8AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
