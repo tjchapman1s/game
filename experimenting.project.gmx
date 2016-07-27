@@ -99,6 +99,7 @@
     <font>fonts\fnt_message</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_master</object>
     <objects name="env_test">
       <object>objects\player_old_crappy</object>
       <object>objects\player_old_crappy2</object>
@@ -137,8 +138,13 @@
     <objects name="items">
       <object>objects\obj_ammo_pistol</object>
       <objects name="keys">
-        <object>objects\obj_key</object>
-        <object>objects\obj_test_key</object>
+        <objects name="demo_keys">
+          <object>objects\obj_key_d_f1_door_2</object>
+        </objects>
+        <objects name="test keys">
+          <object>objects\obj_key</object>
+          <object>objects\obj_test_key</object>
+        </objects>
       </objects>
       <object>objects\obj_weapon_uzi</object>
     </objects>
@@ -148,7 +154,6 @@
       <object>objects\obj_light_room</object>
       <object>objects\obj_light_torch</object>
     </objects>
-    <object>objects\obj_master</object>
     <objects name="env">
       <objects name="lights">
         <object>objects\obj_env_candle</object>

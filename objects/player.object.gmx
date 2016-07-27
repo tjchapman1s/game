@@ -323,7 +323,7 @@ y = player_y;
             <kind>1</kind>
             <string>///this should be clearing text from the screen
 if global.is_text_on_screen == 1 {
-    instance_deactivate_object(txt);
+    instance_deactivate_object(obj_text);
     global.is_text_on_screen = 0;
    // global.can_move = 1;
     //global.last_action_was_read = 0;
